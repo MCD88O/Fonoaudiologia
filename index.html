@@ -213,10 +213,11 @@ body {
   overflow:hidden;
 }
 .char {
-  font-size:2.4rem;
+  width:2.6rem;height:2.6rem;
   display:inline-flex;align-items:center;justify-content:center;
   animation:wobble 2s ease-in-out infinite;
 }
+.char i[data-lucide] { width:2.4rem;height:2.4rem;stroke-width:1.8; }
 .char:nth-child(2){animation-delay:.2s;}
 .char:nth-child(3){animation-delay:.4s;}
 .char:nth-child(4){animation-delay:.6s;}
@@ -744,7 +745,7 @@ i[data-lucide] {
     <p class="hero-body">
       Durante los primeros años, el cerebro de tu hijo se desarrolla a toda velocidad.
       El lenguaje crece con <strong>conversaciones, juego y lectura</strong> — no con pantallas.
-      Esta guía te da todo lo que necesitas para tomar las mejores decisiones. 💪
+      Esta guía te da todo lo que necesitas para tomar las mejores decisiones.
     </p>
 
   </div>
@@ -752,13 +753,13 @@ i[data-lucide] {
 
 <!-- CHARACTER STRIP -->
 <div class="char-strip">
-  <span class="char">📱</span>
-  <span class="char">🧠</span>
-  <span class="char">👶</span>
-  <span class="char">💬</span>
-  <span class="char">📚</span>
-  <span class="char">🎲</span>
-  <span class="char">❤️</span>
+  <span class="char" style="color:var(--blue)"><i data-lucide="smartphone"></i></span>
+  <span class="char" style="color:var(--purple)"><i data-lucide="brain"></i></span>
+  <span class="char" style="color:var(--pink)"><i data-lucide="baby"></i></span>
+  <span class="char" style="color:var(--green)"><i data-lucide="message-circle"></i></span>
+  <span class="char" style="color:var(--orange)"><i data-lucide="book-open"></i></span>
+  <span class="char" style="color:var(--yellow-d)"><i data-lucide="dice-5"></i></span>
+  <span class="char" style="color:var(--red)"><i data-lucide="heart"></i></span>
 </div>
 
 <!-- OMS QUICK FACTS -->
@@ -849,7 +850,7 @@ i[data-lucide] {
   <div class="wrap">
     <div class="sec-head reveal">
       <span class="sec-tag tag-green"><i data-lucide="check-circle" style="color:var(--green)"></i> Contenido y hábitos</span>
-      <h2 class="sec-title">¿Qué sí y qué no? 🤔</h2>
+      <h2 class="sec-title">¿Qué sí y qué no? <i data-lucide="help-circle" style="color:var(--green)"></i></h2>
       <p class="sec-desc">No todo el contenido digital es igual. ¡Elegir bien marca una gran diferencia!</p>
       <div class="squiggle sq-green"></div>
     </div>
@@ -887,7 +888,7 @@ i[data-lucide] {
   <div class="wrap">
     <div class="sec-head reveal">
       <span class="sec-tag tag-purple"><i data-lucide="users" style="color:var(--purple)"></i> Rol del cuidador</span>
-      <h2 class="sec-title">¡El adulto siempre<br>debe estar presente! 🙌</h2>
+      <h2 class="sec-title">¡El adulto siempre<br>debe estar presente! <i data-lucide="sparkles" style="color:var(--purple)"></i></h2>
       <p class="sec-desc">Tu presencia activa lo cambia todo. No basta con estar en la misma habitación — ¡hay que participar!</p>
       <div class="squiggle sq-purple"></div>
     </div>
@@ -1012,7 +1013,7 @@ i[data-lucide] {
   <div class="wrap">
     <p class="closing-quote reveal">
       "La calidad del contenido y la interacción con el adulto son
-      <em>mucho más importantes</em> que simplemente poner una pantalla." ❤️
+      <em>mucho más importantes</em> que simplemente poner una pantalla." <i data-lucide="heart" style="color:var(--pink)"></i>
     </p>
     <p class="reveal" style="font-size:.97rem;color:var(--ink-soft);max-width:520px;margin:0 auto;">
       Las pantallas pueden ser una herramienta útil si se usan con <strong>límites, acompañamiento y contenido adecuado.</strong>
