@@ -680,6 +680,37 @@ footer strong{color:rgba(255,255,255,.85);}
   from{opacity:0;transform:scale(.85) translateY(10px);}
   to  {opacity:1;transform:scale(1)   translateY(0);}
 }
+
+/* ── LUCIDE ICONS ── */
+.lico { display:inline-flex;align-items:center;justify-content:center; }
+.lico svg { width:1em;height:1em;stroke-width:2.2;vertical-align:middle; }
+.nav-brand .lico svg { width:1.4rem;height:1.4rem; }
+.sec-tag .lico svg { width:.9em;height:.9em; }
+.hero-badge .lico svg { width:1em;height:1em; }
+.hero-wiggle .lico svg { width:1em;height:1em; }
+.eff-ico .lico, .tip-ico .lico, .ci .ico .lico { 
+  width:100%;height:100%;
+  display:flex;align-items:center;justify-content:center;
+}
+.eff-ico .lico svg, .tip-ico .lico svg { 
+  width:1.6rem;height:1.6rem;stroke-width:2; 
+}
+.ci .ico .lico svg { width:1.8rem;height:1.8rem;stroke-width:2; }
+.ofc-icon .lico svg { width:2.4rem;height:2.4rem;stroke-width:1.8; }
+.age-badge .lico svg { width:.9em;height:.9em; }
+.box-h .lico svg { width:1.2em;height:1.2em; }
+.ibadge .lico svg { width:.8em;height:.8em;stroke-width:3; }
+.adot-lico { display:inline-flex;align-items:center;flex-shrink:0;margin-top:2px; }
+.adot-lico svg { width:14px;height:14px;stroke-width:2.5; }
+.pres-card h3 .lico svg { width:.9em;height:.9em; }
+.alert-h2 .lico svg { width:1em;height:1em; }
+.fun-fact .lico svg { width:2rem;height:2rem;stroke-width:1.8; }
+.stat-ico .lico svg { width:1.4rem;height:1.4rem; }
+.btn .lico svg { width:1em;height:1em; }
+.closing-quote .lico svg { width:1em;height:1em; }
+.footer-credit-logo .lico svg { width:2rem;height:2rem; }
+.oms-facts-title .lico svg { width:1em;height:1em; }
+
 </style>
 </head>
 <body>
@@ -695,17 +726,17 @@ footer strong{color:rgba(255,255,255,.85);}
 <!-- NAV -->
 <nav class="nav">
   <div class="nav-inner">
-    <span class="nav-brand">🌈 Pantallas &amp; Niños</span>
+    <span class="nav-brand"><span class="lico " style="color:var(--pink)"><i data-lucide="rainbow"></i></span> Pantallas &amp; Niños</span>
     <button class="nav-toggle" id="navToggle" aria-label="Menú">
       <span></span><span></span><span></span>
     </button>
     <ul class="nav-links" id="navLinks">
-      <li><a href="#oms">🏥 La OMS dice</a></li>
-      <li><a href="#efectos">🧠 Efectos</a></li>
-      <li><a href="#contenido">✅ Qué ver</a></li>
-      <li><a href="#presencia">👨‍👩‍👧 Tu rol</a></li>
-      <li><a href="#alertas">⚠️ Alertas</a></li>
-      <li><a href="#tips">💡 Consejos</a></li>
+      <li><a href="#oms"><span class="lico " style="color:var(--blue)"><i data-lucide="stethoscope"></i></span> La OMS dice</a></li>
+      <li><a href="#efectos"><span class="lico " style="color:var(--purple)"><i data-lucide="brain"></i></span> Efectos</a></li>
+      <li><a href="#contenido"><span class="lico " style="color:var(--green)"><i data-lucide="check-circle"></i></span> Qué ver</a></li>
+      <li><a href="#presencia"><span class="lico " style="color:var(--orange)"><i data-lucide="users"></i></span> Tu rol</a></li>
+      <li><a href="#alertas"><span class="lico " style="color:var(--yellow-d)"><i data-lucide="alert-triangle"></i></span> Alertas</a></li>
+      <li><a href="#tips"><span class="lico " style="color:var(--yellow)"><i data-lucide="lightbulb"></i></span> Consejos</a></li>
     </ul>
   </div>
 </nav>
@@ -718,9 +749,9 @@ footer strong{color:rgba(255,255,255,.85);}
     <span class="star">🌈</span><span class="star">🎈</span>
   </div>
   <div class="wrap" style="position:relative;z-index:1;">
-    <p class="hero-badge">📋 Guía para padres y cuidadores</p>
-    <h1><span class="word-1">Pantallas</span> en niños<br><span class="word-2">pequeños</span> 👶</h1>
-    <p class="hero-wiggle">⚠️ Pueden afectar el desarrollo del lenguaje</p>
+    <p class="hero-badge"><span class="lico " style="color:var(--pink)"><i data-lucide="clipboard-list"></i></span> Guía para padres y cuidadores</p>
+    <h1><span class="word-1">Pantallas</span> en niños<br><span class="word-2">pequeños</span> <span class="lico " style="color:var(--blue)"><i data-lucide="baby"></i></span></h1>
+    <p class="hero-wiggle"><span class="lico " style="color:var(--white)"><i data-lucide="alert-triangle"></i></span> Pueden afectar el desarrollo del lenguaje</p>
     <p class="hero-body">
       Durante los primeros años, el cerebro de tu hijo se desarrolla a toda velocidad.
       El lenguaje crece con <strong>conversaciones, juego y lectura</strong> — no con pantallas.
@@ -744,36 +775,36 @@ footer strong{color:rgba(255,255,255,.85);}
 <!-- OMS QUICK FACTS -->
 <div id="oms" class="oms-facts reveal">
   <div class="wrap">
-    <p class="oms-facts-title">🏥 Lo que dice la OMS</p>
+    <p class="oms-facts-title"><span class="lico " style="color:var(--ink)"><i data-lucide="stethoscope"></i></span> Lo que dice la OMS</p>
     <p class="oms-facts-sub">Organización Mundial de la Salud</p>
     <div class="oms-facts-grid">
       <div class="oms-fact-card ofc-red">
-        <div class="ofc-icon">👶</div>
+        <div class="ofc-icon"><span class="lico " style="color:var(--pink)"><i data-lucide="baby"></i></span></div>
         <div class="ofc-age">Menores de 2 años</div>
         <div class="ofc-rule">Evitar pantallas</div>
         <p class="ofc-detail">El cerebro en esta etapa necesita interacción humana real, no estímulos digitales.</p>
-        <div class="ofc-exception">✅ Excepción: videollamadas familiares ocasionales</div>
+        <div class="ofc-exception"><span class="lico " style="color:var(--green)"><i data-lucide="check-circle-2"></i></span> Excepción: videollamadas familiares ocasionales</div>
       </div>
       <div class="oms-fact-card ofc-yellow">
-        <div class="ofc-icon">🧒</div>
+        <div class="ofc-icon"><span class="lico " style="color:var(--yellow-d)"><i data-lucide="user"></i></span></div>
         <div class="ofc-age">2 a 5 años</div>
         <div class="ofc-rule">Máximo 1 hora al día</div>
         <p class="ofc-detail">Siempre con un adulto presente, supervisando y participando activamente.</p>
-        <div class="ofc-exception">✅ Solo contenido educativo y de calidad</div>
+        <div class="ofc-exception"><span class="lico " style="color:var(--green)"><i data-lucide="check-circle-2"></i></span> Solo contenido educativo y de calidad</div>
       </div>
       <div class="oms-fact-card ofc-blue">
-        <div class="ofc-icon">🧑</div>
+        <div class="ofc-icon"><span class="lico " style="color:var(--blue)"><i data-lucide="user-round"></i></span></div>
         <div class="ofc-age">Mayores de 5 años</div>
         <div class="ofc-rule">Máximo 1 a 2 horas al día</div>
         <p class="ofc-detail">No debe afectar el sueño, la escuela, la actividad física ni las relaciones sociales.</p>
-        <div class="ofc-exception">✅ Uso equilibrado, supervisado y con límites claros</div>
+        <div class="ofc-exception"><span class="lico " style="color:var(--green)"><i data-lucide="check-circle-2"></i></span> Uso equilibrado, supervisado y con límites claros</div>
       </div>
       <div class="oms-fact-card ofc-green">
-        <div class="ofc-icon">🌟</div>
+        <div class="ofc-icon"><span class="lico " style="color:var(--green)"><i data-lucide="star"></i></span></div>
         <div class="ofc-age">Todas las edades</div>
         <div class="ofc-rule">Lo más importante</div>
         <p class="ofc-detail">Juego libre, hablar cara a cara, leer juntos y explorar el entorno siempre primero.</p>
-        <div class="ofc-exception">✅ La interacción humana no tiene sustituto</div>
+        <div class="ofc-exception"><span class="lico " style="color:var(--green)"><i data-lucide="check-circle-2"></i></span> La interacción humana no tiene sustituto</div>
       </div>
     </div>
   </div>
@@ -789,32 +820,32 @@ footer strong{color:rgba(255,255,255,.85);}
     </div>
     <div class="effects-grid">
       <div class="eff-card c-pink reveal">
-        <div class="eff-ico bg-pink">🗣️</div>
+        <div class="eff-ico bg-pink"><span class="lico " style="color:var(--pink)"><i data-lucide="message-circle"></i></span></div>
         <div><h3>Retraso en palabras</h3><p>El exceso de pantallas puede retrasar la aparición de las primeras palabras y frases en tu hijo.</p></div>
       </div>
       <div class="eff-card c-purple reveal">
-        <div class="eff-ico bg-purple">📖</div>
+        <div class="eff-ico bg-purple"><span class="lico " style="color:var(--purple)"><i data-lucide="book-open"></i></span></div>
         <div><h3>Menor vocabulario</h3><p>Menos conversaciones con adultos = menos palabras nuevas que aprende cada día.</p></div>
       </div>
       <div class="eff-card c-yellow reveal">
-        <div class="eff-ico bg-yellow">🎯</div>
+        <div class="eff-ico bg-yellow"><span class="lico " style="color:var(--yellow-d)"><i data-lucide="target"></i></span></div>
         <div><h3>Dificultad de atención</h3><p>Los videos muy rápidos dificultan la concentración en actividades de la vida real.</p></div>
       </div>
       <div class="eff-card c-blue reveal">
-        <div class="eff-ico bg-blue">👥</div>
+        <div class="eff-ico bg-blue"><span class="lico " style="color:var(--blue)"><i data-lucide="users"></i></span></div>
         <div><h3>Menos interacción</h3><p>Las pantallas desplazan el juego cara a cara, esencial para el desarrollo social del niño.</p></div>
       </div>
       <div class="eff-card c-green reveal">
-        <div class="eff-ico bg-green">😴</div>
+        <div class="eff-ico bg-green"><span class="lico " style="color:var(--green)"><i data-lucide="moon"></i></span></div>
         <div><h3>Problemas de sueño</h3><p>Usar pantallas antes de dormir puede dificultar que el niño descanse bien, porque la luz de la pantalla hace que el cerebro permanezca "activo" y le cueste más dormir.</p></div>
       </div>
       <div class="eff-card c-orange reveal">
-        <div class="eff-ico bg-orange">💬</div>
+        <div class="eff-ico bg-orange"><span class="lico " style="color:var(--orange)"><i data-lucide="message-square"></i></span></div>
         <div><h3>Menos diálogo familiar</h3><p>Más tiempo en pantallas = menos conversaciones con papá y mamá, que son las más importantes.</p></div>
       </div>
     </div>
     <div class="fun-fact reveal">
-      <span class="bulb">💡</span>
+      <span class="bulb"><span class="lico " style="color:var(--yellow-d)"><i data-lucide="lightbulb"></i></span></span>
       <div>
         <strong>¿Sabías esto?</strong> Estudios muestran que cuanto más tiempo pasan los niños frente a pantallas, menos conversaciones tienen con sus cuidadores — y eso afecta directamente el desarrollo del lenguaje.
       </div>
@@ -828,34 +859,34 @@ footer strong{color:rgba(255,255,255,.85);}
 <section id="contenido">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-tag tag-green">✅ Contenido y hábitos</span>
+      <span class="sec-tag tag-green"><span class="lico " style="color:var(--green)"><i data-lucide="check-circle"></i></span> Contenido y hábitos</span>
       <h2 class="sec-title">¿Qué sí y qué no? 🤔</h2>
       <p class="sec-desc">No todo el contenido digital es igual. ¡Elegir bien marca una gran diferencia!</p>
       <div class="squiggle sq-green"></div>
     </div>
     <div class="dd">
       <div class="do-box reveal">
-        <p class="box-h">✅ ¡Sí a esto!</p>
+        <p class="box-h"><span class="lico " style="color:var(--green-d)"><i data-lucide="check-circle"></i></span> ¡Sí a esto!</p>
         <ul class="ilist">
-          <li><span class="ibadge">✓</span>Programas educativos lentos y sencillos</li>
-          <li><span class="ibadge">✓</span>Canciones y cuentos interactivos</li>
-          <li><span class="ibadge">✓</span>Videos de vocabulario, colores, animales</li>
-          <li><span class="ibadge">✓</span>Lectura digital supervisada</li>
-          <li><span class="ibadge">✓</span>Juegos que desarrollen creatividad o lógica</li>
-          <li><span class="ibadge">✓</span>Aplicaciones educativas básicas</li>
-          <li><span class="ibadge">✓</span>Aprendizaje tecnológico guiado por adultos</li>
+          <li><span class="ibadge"><i data-lucide="check"></i></span>Programas educativos lentos y sencillos</li>
+          <li><span class="ibadge"><i data-lucide="check"></i></span>Canciones y cuentos interactivos</li>
+          <li><span class="ibadge"><i data-lucide="check"></i></span>Videos de vocabulario, colores, animales</li>
+          <li><span class="ibadge"><i data-lucide="check"></i></span>Lectura digital supervisada</li>
+          <li><span class="ibadge"><i data-lucide="check"></i></span>Juegos que desarrollen creatividad o lógica</li>
+          <li><span class="ibadge"><i data-lucide="check"></i></span>Aplicaciones educativas básicas</li>
+          <li><span class="ibadge"><i data-lucide="check"></i></span>Aprendizaje tecnológico guiado por adultos</li>
         </ul>
       </div>
       <div class="no-box reveal">
-        <p class="box-h">🚫 ¡Esto no!</p>
+        <p class="box-h"><span class="lico " style="color:var(--pink-d)"><i data-lucide="ban"></i></span> ¡Esto no!</p>
         <ul class="ilist">
-          <li><span class="ibadge">✕</span>Videos rápidos o sobreestimulantes</li>
-          <li><span class="ibadge">✕</span>Contenido violento o inapropiado</li>
-          <li><span class="ibadge">✕</span>Pantallas durante las comidas</li>
-          <li><span class="ibadge">✕</span>Pantallas antes de dormir</li>
-          <li><span class="ibadge">✕</span>Uso largo sin interacción de un adulto</li>
-          <li><span class="ibadge">✕</span>Redes sociales sin supervisión parental</li>
-          <li><span class="ibadge">✕</span>Contenido que reemplace el juego o la lectura</li>
+          <li><span class="ibadge"><i data-lucide="x"></i></span>Videos rápidos o sobreestimulantes</li>
+          <li><span class="ibadge"><i data-lucide="x"></i></span>Contenido violento o inapropiado</li>
+          <li><span class="ibadge"><i data-lucide="x"></i></span>Pantallas durante las comidas</li>
+          <li><span class="ibadge"><i data-lucide="x"></i></span>Pantallas antes de dormir</li>
+          <li><span class="ibadge"><i data-lucide="x"></i></span>Uso largo sin interacción de un adulto</li>
+          <li><span class="ibadge"><i data-lucide="x"></i></span>Redes sociales sin supervisión parental</li>
+          <li><span class="ibadge"><i data-lucide="x"></i></span>Contenido que reemplace el juego o la lectura</li>
         </ul>
       </div>
     </div>
@@ -866,7 +897,7 @@ footer strong{color:rgba(255,255,255,.85);}
 <section id="presencia" class="pres-section">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-tag tag-purple">👨‍👩‍👧 Rol del cuidador</span>
+      <span class="sec-tag tag-purple"><span class="lico " style="color:var(--purple)"><i data-lucide="users"></i></span> Rol del cuidador</span>
       <h2 class="sec-title">¡El adulto siempre<br>debe estar presente! 🙌</h2>
       <p class="sec-desc">Tu presencia activa lo cambia todo. No basta con estar en la misma habitación — ¡hay que participar!</p>
       <div class="squiggle sq-purple"></div>
@@ -874,32 +905,32 @@ footer strong{color:rgba(255,255,255,.85);}
     <div class="pres-grid">
       <div class="pres-card reveal">
         <div class="pres-step" style="background:var(--pink)">01</div>
-        <h3>Explica lo que ven 🔍</h3>
+        <h3>Explica lo que ven <span class="lico " style="color:var(--ink)"><i data-lucide="search"></i></span></h3>
         <p>Nombra colores, personajes y acciones. Convierte la pantalla en una conversación activa.</p>
       </div>
       <div class="pres-card reveal">
         <div class="pres-step" style="background:var(--blue)">02</div>
-        <h3>Haz preguntas 🙋</h3>
+        <h3>Haz preguntas <span class="lico " style="color:var(--ink)"><i data-lucide="help-circle"></i></span></h3>
         <p>"¿Qué está haciendo ese personaje?" — Las preguntas activan el pensamiento y el vocabulario.</p>
       </div>
       <div class="pres-card reveal">
         <div class="pres-step" style="background:var(--green)">03</div>
-        <h3>Conéctalo con la vida real 🌍</h3>
+        <h3>Conéctalo con la vida real <span class="lico " style="color:var(--ink)"><i data-lucide="globe"></i></span></h3>
         <p>Si ven un perro en pantalla, habla del perro del parque. Así el aprendizaje se ancla de verdad.</p>
       </div>
       <div class="pres-card reveal">
         <div class="pres-step" style="background:var(--yellow-d)">04</div>
-        <h3>Interactúa, no solo vigiles 👀</h3>
+        <h3>Interactúa, no solo vigiles <span class="lico " style="color:var(--ink)"><i data-lucide="eye"></i></span></h3>
         <p>Estar en la misma habitación no alcanza. La interacción activa es lo que hace la diferencia.</p>
       </div>
       <div class="pres-card reveal">
         <div class="pres-step" style="background:var(--purple)">05</div>
-        <h3>Establece límites claros ⏰</h3>
+        <h3>Establece límites claros <span class="lico " style="color:var(--ink)"><i data-lucide="clock"></i></span></h3>
         <p>Horarios definidos y transiciones suaves dan seguridad a los niños y reducen conflictos.</p>
       </div>
       <div class="pres-card reveal">
         <div class="pres-step" style="background:var(--orange)">06</div>
-        <h3>Tú eres el modelo 🌟</h3>
+        <h3>Tú eres el modelo <span class="lico " style="color:var(--ink)"><i data-lucide="star"></i></span></h3>
         <p>Los niños copian lo que ven. Si reduces tu tiempo en pantallas frente a ellos, ¡ese es el mejor mensaje!</p>
       </div>
     </div>
@@ -910,32 +941,32 @@ footer strong{color:rgba(255,255,255,.85);}
 <section id="alertas" class="alert-wrap">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-tag tag-pink">⚠️ Señales de alerta</span>
-      <h2 class="sec-title">¿Cuándo ir con<br>un especialista? 👨‍⚕️</h2>
+      <span class="sec-tag tag-pink"><span class="lico " style="color:var(--pink)"><i data-lucide="alert-triangle"></i></span> Señales de alerta</span>
+      <h2 class="sec-title">¿Cuándo ir con<br>un especialista? <span class="lico " style="color:var(--ink)"><i data-lucide="stethoscope"></i></span></h2>
       <div class="squiggle sq-pink"></div>
     </div>
     <div class="alert-box reveal">
       <div class="alert-grid">
         <div>
-          <p class="alert-h2">🚨 Señales en el niño</p>
+          <p class="alert-h2"><span class="lico " style="color:#f48fb1"><i data-lucide="siren"></i></span> Señales en el niño</p>
           <p class="alert-sub">Consulta con un especialista si tu hijo/a presenta alguna de estas señales con frecuencia:</p>
           <ul class="alist">
-            <li><span class="adot dc"></span>Habla poco para su edad o dejó de hablar</li>
-            <li><span class="adot dc"></span>No responde cuando lo llaman por su nombre</li>
-            <li><span class="adot dc"></span>Prefiere la pantalla antes que jugar con personas</li>
-            <li><span class="adot dc"></span>Tiene muy poca comunicación verbal o gestual</li>
-            <li><span class="adot dc"></span>Se irrita mucho cuando le quitan el dispositivo</li>
+            <li><span class="adot-lico"><i data-lucide="circle-dot" style="color:#f48fb1"></i></span>Habla poco para su edad o dejó de hablar</li>
+            <li><span class="adot-lico"><i data-lucide="circle-dot" style="color:#f48fb1"></i></span>No responde cuando lo llaman por su nombre</li>
+            <li><span class="adot-lico"><i data-lucide="circle-dot" style="color:#f48fb1"></i></span>Prefiere la pantalla antes que jugar con personas</li>
+            <li><span class="adot-lico"><i data-lucide="circle-dot" style="color:#f48fb1"></i></span>Tiene muy poca comunicación verbal o gestual</li>
+            <li><span class="adot-lico"><i data-lucide="circle-dot" style="color:#f48fb1"></i></span>Se irrita mucho cuando le quitan el dispositivo</li>
           </ul>
         </div>
         <div>
-          <p class="alert-h2">💛 Recuerda siempre</p>
+          <p class="alert-h2"><span class="lico " style="color:#ffe082"><i data-lucide="heart"></i></span> Recuerda siempre</p>
           <p class="alert-sub">Estas señales no son un diagnóstico, pero sí son una señal para buscar ayuda a tiempo:</p>
           <ul class="alist">
-            <li><span class="adot da"></span>Un pediatra o fonoaudiólogo puede orientarte</li>
-            <li><span class="adot da"></span>La detección temprana marca una gran diferencia</li>
-            <li><span class="adot da"></span>No esperes a que el problema sea más evidente</li>
-            <li><span class="adot da"></span>Pedir ayuda es señal de que eres buen padre o madre</li>
-            <li><span class="adot da"></span>Confía en tu instinto: si algo te preocupa, ¡actúa!</li>
+            <li><span class="adot-lico"><i data-lucide="circle-dot" style="color:#ffe082"></i></span>Un pediatra o fonoaudiólogo puede orientarte</li>
+            <li><span class="adot-lico"><i data-lucide="circle-dot" style="color:#ffe082"></i></span>La detección temprana marca una gran diferencia</li>
+            <li><span class="adot-lico"><i data-lucide="circle-dot" style="color:#ffe082"></i></span>No esperes a que el problema sea más evidente</li>
+            <li><span class="adot-lico"><i data-lucide="circle-dot" style="color:#ffe082"></i></span>Pedir ayuda es señal de que eres buen padre o madre</li>
+            <li><span class="adot-lico"><i data-lucide="circle-dot" style="color:#ffe082"></i></span>Confía en tu instinto: si algo te preocupa, ¡actúa!</li>
           </ul>
         </div>
       </div>
@@ -947,39 +978,39 @@ footer strong{color:rgba(255,255,255,.85);}
 <section id="tips" class="tips-section">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-tag tag-yellow">🏠 Acción en casa</span>
-      <h2 class="sec-title">6 cosas que puedes<br>hacer ¡desde hoy! 🎯</h2>
+      <span class="sec-tag tag-yellow"><span class="lico " style="color:var(--yellow-d)"><i data-lucide="home"></i></span> Acción en casa</span>
+      <h2 class="sec-title">6 cosas que puedes<br>hacer ¡desde hoy! <span class="lico " style="color:var(--pink)"><i data-lucide="target"></i></span></h2>
       <p class="sec-desc">No necesitas ser experto. Pequeños cambios en la rutina diaria tienen un impacto enorme. ¡Tú puedes!</p>
       <div class="squiggle sq-yellow"></div>
     </div>
     <div class="tips-grid">
       <div class="tip-card reveal">
-        <div class="tip-ico bg-pink">💬</div>
+        <div class="tip-ico bg-pink"><span class="lico " style="color:var(--pink)"><i data-lucide="message-circle"></i></span></div>
         <h3>Habla más con tu hijo</h3>
         <p>Cuéntale lo que haces, describe lo que ven, pregunta cómo se siente. ¡Cada conversación suma!</p>
       </div>
       <div class="tip-card reveal">
-        <div class="tip-ico bg-purple">📚</div>
+        <div class="tip-ico bg-purple"><span class="lico " style="color:var(--purple)"><i data-lucide="book-open"></i></span></div>
         <h3>Lee cuentos cada día</h3>
         <p>Solo 15 minutos diarios de lectura compartida tienen un impacto enorme en el desarrollo.</p>
       </div>
       <div class="tip-card reveal">
-        <div class="tip-ico bg-green">🎲</div>
+        <div class="tip-ico bg-green"><span class="lico " style="color:var(--green)"><i data-lucide="dice-5"></i></span></div>
         <h3>Juega cara a cara</h3>
         <p>El juego simbólico desarrolla habilidades que ¡ninguna app del mundo puede reemplazar!</p>
       </div>
       <div class="tip-card reveal">
-        <div class="tip-ico bg-yellow">🍽️</div>
+        <div class="tip-ico bg-yellow"><span class="lico " style="color:var(--yellow-d)"><i data-lucide="utensils"></i></span></div>
         <h3>Mesa sin pantallas</h3>
         <p>El tiempo de comida es una oportunidad de oro para conectar y conversar en familia.</p>
       </div>
       <div class="tip-card reveal">
-        <div class="tip-ico bg-blue">🌙</div>
+        <div class="tip-ico bg-blue"><span class="lico " style="color:var(--blue)"><i data-lucide="moon"></i></span></div>
         <h3>Apaga 1h antes de dormir</h3>
         <p>La luz de las pantallas afecta el sueño. Protege el descanso, ¡protege el cerebro!</p>
       </div>
       <div class="tip-card reveal">
-        <div class="tip-ico bg-orange">🛡️</div>
+        <div class="tip-ico bg-orange"><span class="lico " style="color:var(--orange)"><i data-lucide="shield"></i></span></div>
         <h3>Supervisa el contenido</h3>
         <p>Conoce qué ven y con qué juegan. ¡La calidad importa tanto como el tiempo de uso!</p>
       </div>
@@ -998,10 +1029,10 @@ footer strong{color:rgba(255,255,255,.85);}
       Las pantallas pueden ser una herramienta útil si se usan con <strong>límites, acompañamiento y contenido adecuado.</strong>
     </p>
     <div class="closing-icons reveal">
-      <div class="ci"><div class="ico bg-pink">💬</div>Conversa</div>
-      <div class="ci"><div class="ico bg-purple">📖</div>Lee cuentos</div>
-      <div class="ci"><div class="ico bg-green">🎮</div>Juega</div>
-      <div class="ci"><div class="ico bg-blue">🤝</div>Interactúa</div>
+      <div class="ci"><div class="ico bg-pink"><span class="lico " style="color:var(--pink)"><i data-lucide="message-circle"></i></span></div>Conversa</div>
+      <div class="ci"><div class="ico bg-purple"><span class="lico " style="color:var(--purple)"><i data-lucide="book-open"></i></span></div>Lee cuentos</div>
+      <div class="ci"><div class="ico bg-green"><span class="lico " style="color:var(--green)"><i data-lucide="gamepad-2"></i></span></div>Juega</div>
+      <div class="ci"><div class="ico bg-blue"><span class="lico " style="color:var(--blue)"><i data-lucide="handshake"></i></span></div>Interactúa</div>
     </div>
   </div>
 </div>
@@ -1064,5 +1095,7 @@ footer strong{color:rgba(255,255,255,.85);}
     });
   });
 </script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script>lucide.createIcons();</script>
 </body>
 </html>
